@@ -9,7 +9,7 @@ const HomePage = () => {
   const [allFeed, setAllFeed] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/feed")
+    fetch("https://feed-api-app.herokuapp.com/feed")
       .then((response) => response.json())
       .then((json) => {
         setAllFeed(
