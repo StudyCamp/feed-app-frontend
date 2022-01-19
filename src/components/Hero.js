@@ -12,7 +12,6 @@ const Hero = (props) => {
         />
         <Carousel.Caption style={{ color: "black" }}>
           <h2>Welcome to Leon's</h2>
-          <p>The best place to buy all your music, toys, and games</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item style={{ height: "300px" }}>
@@ -22,10 +21,7 @@ const Hero = (props) => {
           alt="Second slide"
         />
 
-        <Carousel.Caption style={{ color: "white" }}>
-          <h2>PROMOTIONS</h2>
-          <p>10% OFF Today!</p>
-        </Carousel.Caption>
+        <Carousel.Caption style={{ color: "white" }}></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item style={{ height: "300px" }}>
         <img
@@ -34,10 +30,7 @@ const Hero = (props) => {
           alt="Third slide"
         />
 
-        <Carousel.Caption style={{ color: "white" }}>
-          <h2>Amazing vacation products</h2>
-          <p>Shop and enjoy</p>
-        </Carousel.Caption>
+        <Carousel.Caption style={{ color: "white" }}></Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
