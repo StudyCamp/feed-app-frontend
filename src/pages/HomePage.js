@@ -53,9 +53,6 @@ const HomePage = () => {
 
   return (
     <>
-      {new Date().getDate()} <br></br>
-      {new Date().getMonth() + 1} <br></br>
-      {new Date().getFullYear()} <br />
       <Hero />
       <Grid>
         <Grid.Column width={4}>
